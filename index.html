@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Грамматика Английского — A2 до B2</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="content-wrapper">
+    <h1>✨ Грамматика английского языка<br><small>A2 – B2</small></h1>
+
+    <!-- A2 -->
+    <div class="level">
+      <h2>🟢 Pre-Intermediate (A2)</h2>
+      <div class="buttons">
+        <button onclick="openModal('present-simple')">Present Simple</button>
+        <button onclick="openModal('present-continuous')">Present Continuous</button>
+        <button onclick="openModal('past-simple')">Past Simple</button>
+        <button onclick="openModal('will-vs-going-to')">Will vs Going to</button>
+        <button onclick="openModal('can-must-should')">Can / Must / Should</button>
+        <button onclick="openModal('comparatives')">Comparative</button>
+        <button onclick="openModal('superlative')">Superlative</button>
+      </div>
+    </div>
+
+    <!-- B1 -->
+    <div class="level">
+      <h2>🟡 Intermediate (B1)</h2>
+      <div class="buttons">
+        <button onclick="openModal('present-perfect')">Present Perfect</button>
+        <button onclick="openModal('past-continuous')">Past Continuous</button>
+        <button onclick="openModal('past-perfect')">Past Perfect</button>
+        <button onclick="openModal('first-second-cond')">1st & 2nd Conditionals</button>
+        <button onclick="openModal('passive-simple')">Passive (Simple)</button>
+        <button onclick="openModal('reported-speech-b1')">Reported Speech (B1)</button>
+      </div>
+    </div>
+
+    <!-- B2 -->
+    <div class="level">
+      <h2>🔵 Upper-Intermediate (B2)</h2>
+      <div class="buttons">
+        <button onclick="openModal('all-tenses')">Все времена</button>
+        <button onclick="openModal('third-conditional')">Third Conditional</button>
+        <button onclick="openModal('advanced-passive')">Advanced Passive</button>
+        <button onclick="openModal('reported-speech-b2')">Reported Speech (B2)</button>
+        <button onclick="openModal('inversion')">Inversion </button>
+        <button onclick="openModal('cleft-sentences')">Cleft Sentences</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="grammarModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <div id="modalText"></div>
+    </div>
+  </div>
+
+  <script src="script.js">
+  
+  </script>
+</body>
+</html>
